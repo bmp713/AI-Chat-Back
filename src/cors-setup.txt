@@ -1,0 +1,8 @@
+// Add CORS support for development
+const cors = require('cors');
+// ...existing code...
+app.use(cors({
+    origin: 'http://localhost:3000',
+    credentials: true
+}));
+// ...existing code...

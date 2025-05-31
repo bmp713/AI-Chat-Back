@@ -1,0 +1,21 @@
+{
+  "name": "openai-chatbot-backend",
+  "version": "1.0.0",
+  "description": "Backend for OpenAI Chatbot using Node.js and Express",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "sass": "^1.89.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
