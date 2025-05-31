@@ -1,4 +1,5 @@
-const fetch = require('node-fetch');
+// const fetch = require('node-fetch');
+const fetch = (...args) => import('node-fetch').then(mod => mod.default(...args));
 const apiKey = process.env.GEMINI_API_KEY;
 
 console.log('API Key:', apiKey ? `${apiKey} Loaded` : 'NOT loaded');
