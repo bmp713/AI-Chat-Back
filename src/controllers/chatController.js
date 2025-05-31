@@ -28,6 +28,7 @@ class ChatController {
                 role: "user"
             }]
         });
+
         try {
             const response = await fetch(url, {
                 method: 'POST',
