@@ -1,7 +1,7 @@
 {
-  "name": "openai-chatbot-backend",
+  "name": "ai-chat-back",
   "version": "1.0.0",
-  "description": "Backend for OpenAI Chatbot using Node.js and Express",
+  "description": "Backend for AI Chat using Node.js and Express",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
