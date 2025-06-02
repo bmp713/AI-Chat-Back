@@ -1,5 +1,5 @@
 {
-  "name": "ai-chat-back",
+  "name": "ai-chat-backend",
   "version": "1.0.0",
   "description": "Backend for AI Chat using Node.js and Express",
   "main": "src/app.js",
